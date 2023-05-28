@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+h2{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+p{
+    text-align: right;
+    font-family: ;
+    color: white;
+    font-style: italic;
+    background-color: blue;
+    border: 3px solid tomato;
+    font-family: 'Montserrat' ;
+}
+p:nth-child(3){
+    color: yellow;
+    border: 3px solid blueviolet;
+    background-color: black;
+    text-align: left;
+    font-family: 'Courier Prime', monospace;
+    font-size: 2em;
+}
+form{
+    background-color: lightblue;
+    text-align: center;
+}
+input:last-child{
+    color: white;
+    background-color: red;
+}
